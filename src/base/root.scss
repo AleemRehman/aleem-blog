@@ -1,8 +1,6 @@
 @import './_variables.scss';
 @import './animations.scss';
 
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800&display=swap');
 
 html, body {
     word-wrap: break-word;
@@ -12,6 +10,9 @@ html, body {
     font-size: 1.8rem;
     letter-spacing: -.015em;
     text-align: left;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
 ::selection {
@@ -50,7 +51,16 @@ p {
     margin: 0 0 1.45rem;
 }
 
-alternate-text { 
+.alternate-text { 
     font-family: 'Bitter', serif;
     letter-spacing: 0.015em;
+}
+
+.blog-global-wrapper{
+    background-color: $white;
+}
+
+.stretched-content {
+    position: relative;
+    width: 100%;
 }
